@@ -1,0 +1,11 @@
+.banner{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    padding-left: 10px;
+}
+
+p{
+    color: white;
+}
