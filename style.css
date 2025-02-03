@@ -1,0 +1,50 @@
+body{
+    box-sizing: border-box;
+}
+
+.banner {
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    padding: 10px;
+}
+
+p {
+    color: white;
+}
+
+.test {
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.test:hover {
+    background-color: rgb(100, 100, 230);
+}
+
+.sous-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: blue;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: auto;
+    display: none;
+}
+
+.sous-menu li {
+    padding: 5px;
+    color: white;
+}
+
+.sous-menu li:hover {
+    background-color: rgb(133, 133, 250);
+}
+
+.test:hover .sous-menu {
+    display: block;
+}
